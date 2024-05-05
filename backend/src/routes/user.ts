@@ -2,7 +2,7 @@ import { Hono } from "hono";
 import { PrismaClient } from '@prisma/client/edge'
 import { withAccelerate } from '@prisma/extension-accelerate'
 import { sign } from 'hono/jwt'
-import { signupInput, signinInput } from "@100xdevs/medium-common";
+import { signupInput, signinInput } from "@arnavshah/medium";
 
 export const userRouter = new Hono<{
     Bindings: {
@@ -13,7 +13,7 @@ export const userRouter = new Hono<{
 
 userRouter.post('/signup', async (c) => {
     const body = await c.req.json();
-    const { success } = signupInput.safeParse(body);
+    const { success } = signupInput.safeParse(body);  // returns an object with boolean property which shows if validation is failed or not
     if (!success) {
         c.status(411);
         return c.json({
@@ -30,7 +30,7 @@ userRouter.post('/signup', async (c) => {
           username: body.username,
           password: body.password,
           name: body.name
-        }
+        } 
       })
       const jwt = await sign({
         id: user.id
