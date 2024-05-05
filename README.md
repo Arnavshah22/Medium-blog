@@ -9,7 +9,8 @@ Welcome to our Blogging Site project Medium Alike! This is a platform where user
 - 
 ## Demo
 
-Include a link to a live demo of the blogging site if available. This could be a deployed version of the project on a hosting platform like vercel
+Include a link to a live demo of the blogging site if available. This could be a deployed version of the project on a hosting platform on vercel
+https://medium-blog-eight-ivory.vercel.app/signup
 
 ## Tech-Stack
 We’ll be building medium in the following stack
