@@ -16,7 +16,7 @@ https://medium-blog-eight-ivory.vercel.app/signup
 We’ll be building medium in the following stack
 React in the frontend
 Cloudflare workers in the backend
-zod as the validation library, type inference for the frontend types
+Zod as the validation library, type inference for the frontend types
 Typescript as the language
 Prisma as the ORM, with connection pooling
 Postgres as the database
@@ -32,10 +32,10 @@ jwt for authentication
 3. Install dependencies
 
 4. Set up environment variables:
-  --go to the backend folder create a .env file and add your DATBASE_URL=" your db-connection from Aiven or neon. tech";
+  go to the backend folder create a .env file and add your DATBASE_URL=" your db-connection from Aiven or neon. tech";
    
-5 After setting up go frontend folder:
-  -- cd frontend and run "npm run dev" to start the project locally on your machine 
+5. After setting up go frontend folder:
+  cd frontend and run "npm run dev" to start the project locally on your machine 
 
 
  
