@@ -6,16 +6,17 @@ Welcome to our Blogging Site project Medium Alike! This is a platform where user
 
 - User authentication and authorization system
 - Ability for users to create and Post Blogs
-- 
+
 ## Demo
 
-Include a link to a live demo of the blogging site if available. This could be a deployed version of the project on a hosting platform like vercel
+Include a link to a live demo of the blogging site if available. This could be a deployed version of the project on a hosting platform on vercel
+https://medium-blog-eight-ivory.vercel.app/signup
 
 ## Tech-Stack
 We’ll be building medium in the following stack
 React in the frontend
 Cloudflare workers in the backend
-zod as the validation library, type inference for the frontend types
+Zod as the validation library, type inference for the frontend types
 Typescript as the language
 Prisma as the ORM, with connection pooling
 Postgres as the database
@@ -31,10 +32,10 @@ jwt for authentication
 3. Install dependencies
 
 4. Set up environment variables:
-  --go backend folder create a .env file and add your DATBASE_URL="your db-connection from aiven or neon.tech";
+  go to the backend folder create a .env file and add your DATBASE_URL=" your db-connection from Aiven or neon. tech";
    
-5 after setting up go frontend folder with help of 
---cd/frontend and run "npm run dev" to start project locally on your machine 
+5. After setting up go frontend folder:
+  cd frontend and run "npm run dev" to start the project locally on your machine 
 
 
  
