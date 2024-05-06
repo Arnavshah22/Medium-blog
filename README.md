@@ -6,7 +6,7 @@ Welcome to our Blogging Site project Medium Alike! This is a platform where user
 
 - User authentication and authorization system
 - Ability for users to create and Post Blogs
-- 
+
 ## Demo
 
 Include a link to a live demo of the blogging site if available. This could be a deployed version of the project on a hosting platform on vercel
